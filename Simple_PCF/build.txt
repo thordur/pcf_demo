@@ -1,0 +1,14 @@
+
+// create component
+
+pac pcf init --namespace <specify your namespace here> --name <Name of the code component> --template <component type>
+
+//development
+
+npm run start
+npm run start watch
+
+// build
+
+npm run build -- --buildMode development
+npm run build -- --buildMode production
